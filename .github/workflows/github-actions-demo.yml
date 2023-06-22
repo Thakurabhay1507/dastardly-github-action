@@ -17,7 +17,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   Run-dastardly:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Run Dastardly Action Step
         uses: PortSwigger/dastardly-github-action@main
